@@ -1,9 +1,9 @@
 firstpromoter-api-node
 ==============
 
-[![travis ci](https://travis-ci.org/FIRSTPROMOTER2/firstpromoter-api-node.svg?branch=master)](https://travis-ci.org/FIRSTPROMOTER2/firstpromoter-api-node)
+[![travis ci](https://travis-ci.org/Pixc2/firstpromoter-api-node.svg?branch=master)](https://travis-ci.org/Pixc2/firstpromoter-api-node)
 
-Node.js FIRSTPROMOTER API bindings. API docs available here: https://FIRSTPROMOTER.com/api
+Node.js FirstPromoter API bindings. API docs available here: https://docs.firstpromoter.com/#api-reference
 
 ### Installation
 
@@ -21,7 +21,7 @@ Creates a new `FirstpromoterApiNode` instance.
 
 #### Options
 
-- `wid` - Optional (String) - Integration ID(wid): https://docs.firstpromoter.com/#authentication
+- `wid` - Optional (String) - Integration ID(wid)
 - `key` - Required (Boolean) - API key
 
 #### Return value
