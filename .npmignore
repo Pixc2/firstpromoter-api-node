@@ -1,0 +1,9 @@
+.eslintrc
+.gitignore
+.gitlab-ci.yml
+docker-compose.yml
+.travis.yml
+jest.config.js
+README.md
+Makefile
+lib/__tests__

@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  firstpromoter-api-node:
+
+services:
+  firstpromoter-api-node:
+    image: node:10-slim
+    tty: true
+    working_dir: /firstpromoter-api-node
+    volumes:
+      - .:/firstpromoter-api-node
+    environment:
+      - DISABLE_OPENCOLLECTIVE=true
+      - NPM_TOKEN
+    networks:
+      firstpromoter-api-node:

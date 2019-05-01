@@ -1,0 +1,44 @@
+{
+  "version": "0.0.1",
+  "name": "firstpromoter-api-node",
+  "description": "Node.js library for firstpromoter.com API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIRSTPROMOTER2/firstpromoter-api-node.git"
+  },
+  "license": "MIT",
+  "author": "Sergey Kalaus (@s-kalaus)",
+  "main": "lib/firstpromoter-api-node.js",
+  "keywords": [
+    "FIRSTPROMOTER",
+    "api",
+    "node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/FIRSTPROMOTER2/firstpromoter-api-node/issues"
+  },
+  "homepage": "https://FIRSTPROMOTER.com/api",
+  "scripts": {
+    "jscpd": "jscpd -t 0 ./lib/*.js",
+    "lint": "eslint ./lib/*.js",
+    "test": "jest --coverage --config=jest.config.js",
+    "test-watch": "jest --coverage  --watchAll --config=jest.config.js"
+  },
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.4",
+    "jest": "^24.7.1",
+    "jscpd": "^2.0.13",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-import": "^2.17.1"
+  }
+}

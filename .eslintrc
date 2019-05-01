@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "parserOptions":{
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "jest": true,
+    "node": true
+  }
+}

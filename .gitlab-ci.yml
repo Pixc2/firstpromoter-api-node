@@ -1,0 +1,23 @@
+stages:
+  - test
+  - build
+
+image: node:10-slim
+
+before_script:
+  - npm ci
+
+test:
+  stage: test
+  script:
+    - npm run lint
+    - npm run jscpd
+    - npm test
+
+build:
+  stage: build
+  script:
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm publish
+  only:
+    - master
