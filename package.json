@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "name": "firstpromoter-api-node",
   "description": "Node.js library for firstpromoter.com API",
   "repository": {
@@ -32,13 +32,13 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "@types/node": "^11.13.4",
-    "jest": "^24.7.1",
-    "jscpd": "^2.0.13",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-import": "^2.17.1"
+    "@types/node": "^12.5.8",
+    "jest": "^24.8.0",
+    "jscpd": "^2.0.15",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
