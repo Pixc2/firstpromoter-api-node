@@ -51,12 +51,14 @@ firstpromoterApiNode.post('track/signup', {
 
 ```json
 {
-  "id": 12345,
-  "type": "signup",
-  "amount_cents": null,
-  "reward": null,
-  "lead": {},
-  "promoter": {}
+  "body": {
+    "id": 12345,
+    "type": "signup",
+    "amount_cents": null,
+    "reward": null,
+    "lead": {},
+    "promoter": {}
+  }
 }
 ```
 
